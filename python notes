@@ -1,0 +1,71 @@
+//python notes
+
+dir :tells the attributes related to the object
+help: help in getting the informton related to the function 
+eg: help(random.randint) 
+
+randint : generates a random number between a and b both a and b inclusive
+
+alt+p : to get the last command executed in the shell
+
+range function has three arguments start , stop and step 
+
+example list(range(5,10,2))
+
+expected output :: 5 7 9
+
+stop is not included , while start is included
+
+lists 
+lists are mutable , dynammic and heterogenos in nature
+
+tuple 
+when we make a list immutable it becomes tuple
+
+dictionary
+an unordered set of key/value pairs
+dictionary are mutable
+unique keys 
+
+set 
+unordered set of unique elements
+
+len(collection_name) to find the length of the collection
+
+collection_name.append('a') to append an element in a collection 
+
+not in operator checks if an object is not present in the collection or sequence
+
+taking input from the user 
+
+word = input("enter your choice")
+
+useful methods of list
+len(list) gives the length of the list 
+extend: to merge two lists takes a collection as an argument
+remove: to remove an object from list takes value as an argument
+pop: to remove takes index as an argument 
+
+extend and append insert at one end of the list that is the right hand side 
+
+while insert adds new object to the beginning or at a particular index of the list takes index value as an argument 
+eg: num.insert(0,10)
+inserting 10 at index no 0
+
+conversion of string to list
+list(string)
+
+conversion of list to string
+''.join(list)
+
+copy method to copy objects from one list to another deep copy
+
+to get last element of the list list[-1]
+
+slicing in list
+
+list[start:stop:step]
+start has default value 0
+stop has default value max allowed for the list
+step has default value 1
+stop is not inclusive
